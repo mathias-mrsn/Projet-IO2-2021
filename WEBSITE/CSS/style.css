@@ -1,0 +1,296 @@
+body {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+button[class="darkmode"]
+{
+position: fixed;
+bottom : 40px;
+right: 50px;
+
+padding: 8px 25px 8px;
+color: rgb(253, 253, 253);
+background-color: #383535;
+font-size: 15px;
+border: 1px solid;
+border-radius: 50px;
+cursor: pointer;
+}
+
+a.scrollUp{
+	color: white;
+}
+
+a:not([id="scrollUp"]){
+	color: black;
+}
+
+h4 {
+	font-size: 15px;
+	font-weight: lighter;
+	color: grey;
+}
+
+
+input[type="text"].log,
+input[type="password"],
+input[type="mail"] {
+	width: 300px;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+input[type="button"].report {
+	padding: 1.5px 6px 1.5px;
+	color: black;
+	background-color: #b44545;
+	font-size: 13px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 10px;
+	float: right;
+	cursor: pointer;
+}
+
+input[type='text']:not([class="message"]):not([class="log"]) {
+	width: 300px;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: 25px;
+}
+
+button[type='submit'] {
+	padding: 10px 25px 8px;
+	color: #fff;
+	background-color: #0067ab;
+	font-size: 16px;
+	box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, rgb(106, 127, 245) 0 1px 0 0;
+	border: 1px solid #0164a5;
+	border-radius: 2px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+button[type='submit'] {
+	background-color: #024978;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-top: 100px;
+}
+
+ul[class="nav"] {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 10;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0164a5;
+	width: 100%;
+	border-radius: 4px;
+	line-height: 25px;
+
+}
+
+li[class='1'] {
+	float: left;
+}
+
+li[class='2'] {
+	float: right;
+}
+
+li[class='1'] a,
+li[class='2'] a {
+	display: block;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-top: 4px;
+
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+div[class='contenu'] {
+	text-align: center;
+}
+
+input[type='recherche'] {
+	width: 200px;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	padding: 3px;
+	color: #333;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+div[class="pseudo"] {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+div[class="input"] {
+	margin-top: 20px;
+}
+
+input[type="button"].follow,
+input[type="button"].new_mes {
+	padding: 5px 12px 4px;
+	color: #fff;
+	background-color: #0067ab;
+	font-size: 16px;
+	border: 1px solid #0164a5;
+	border-radius: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	margin: 7px;
+}
+
+input[type="button"]:not([class="follow"]):not([class="new_mes"]):not([class="report"]) {
+	padding: 5px 12px 4px;
+	color: #fff;
+	background-color: #0067ab;
+	font-size: 16px;
+	border: 1px solid #0164a5;
+	border-radius: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	float: right;
+	display: block;
+	cursor: pointer;
+}
+
+textarea {
+	width: 500px;
+	height: 100px;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: 25px;
+}
+
+ul[class="posts"] {
+	list-style-type: none;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4b8fbd;
+	width: 50%;
+	border-radius: 10px;
+	line-height: 25px;
+	text-align: center;
+
+}
+
+li[class="post"] {
+	font-family: Arial, sans-serif;
+	margin: auto;
+	padding: 0;
+	line-height: 25px;
+	text-align: center;
+	border: 3px solid rgb(8, 0, 0);
+	width: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 6px;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+div[class="like"] {
+	float: left;
+	margin-left: 20px;
+}
+
+div[class="contenu"] {
+	list-style-type: none;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4b8fbd;
+	width: 40%;
+	border-radius: 6px;
+	line-height: 25px;
+	text-align: center;
+}
+
+div[class="header"] {
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+div[class="envoyeur"] {
+	margin-top: 7px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	font-family: Arial, sans-serif;
+}
+
+div[class="receveur"] {
+	margin-top: 7px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	font-family: Arial, sans-serif;
+}
+
+div[class="message_envoye"] {
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+div[class="message_recu"] {
+	margin-top: 20px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+div[class="date_envoye"] {
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: lighter;
+	text-align: left;
+	margin-left: 10px;
+}
+
+div[class="date"] {
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: lighter;
+	text-align: center;
+	margin-left: 10px;
+}
+
+div[class="date_recu"] {
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: lighter;
+	text-align: right;
+	margin-right: 10px;
+}
+
